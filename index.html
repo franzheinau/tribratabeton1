@@ -83,13 +83,15 @@
   </footer>
 
   <!-- Animasi -->
-  <script>
-    function hubungi() {
-      const noWA = "6282353283872";
-      const pesan = "Halo Tribarata Beton, saya tertarik dengan produk batako Anda.";
-      const url = `https://wa.me/${noWA}?text=${encodeURIComponent(pesan)}`;
-      window.open(url, "_blank");
-    }
+ <script>
+  function hubungi() {
+    const noWA = "6282353283872";
+    const pesan = "Halo Tribarata Beton, saya tertarik dengan produk batako Anda.";
+    const url = `https://api.whatsapp.com/send?phone=${noWA}&text=${encodeURIComponent(pesan)}`;
+    window.open(url, "_blank");
+  }
+</script>
+
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
