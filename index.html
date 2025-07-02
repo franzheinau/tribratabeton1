@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tribarata Beton | Batako Berkualitas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#0f172a] text-white">
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen relative flex items-center justify-center bg-cover bg-center bg-fixed" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201009/pngtree-dark-green-cyan-paper-cut-minimalist-background-for-brochure-poster-banner-image_405384.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 text-center px-6 animate-fade-in">
+      <div class="flex justify-center items-center gap-4 mb-4 flex-wrap">
+        <img src="https://ik.imagekit.io/3fgrgeqi6z/WhatsApp_Image_2025-07-02_at_13.30.12_5fb8d805-removebg-preview.png?updatedAt=1751435465262" alt="Logo Tribarata Beton" class="w-16 h-16 md:w-20 md:h-20 drop-shadow-lg" />
+        <h1 class="text-white text-4xl md:text-6xl font-extrabold drop-shadow-lg">Tribarata Beton</h1>
+      </div>
+      <p class="text-white text-lg md:text-2xl font-medium mt-2 mb-6">Kuat Menopang, Kokoh Membangun!</p>
+      <a href="#produk" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-full transition duration-300">Lihat Informasi/Produk</a>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section class="py-16 px-6 md:px-20 bg-[#0f172a]">
+    <div class="max-w-5xl mx-auto text-center animate-fade-up">
+      <h2 class="text-3xl font-bold mb-4 text-cyan-300">Kenapa Pilih Kami?</h2>
+      <p class="text-lg text-gray-300">Tribarata Beton menghadirkan produk batako yang terbuat dari bahan pilihan dan proses pres modern. Tahan lama, kuat, dan terpercaya.</p>
+    </div>
+  </section>
+
+  <!-- Produk -->
+  <section id="produk" class="py-16 px-6 md:px-20 bg-[#0f172a]">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10 text-cyan-300 animate-fade-up">Informasi Produk</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
+      <!-- Kartu Produk 1 -->
+      <div class="bg-[#1e293b] p-6 rounded-xl shadow-lg hover:shadow-[0_0_20px_#22d3ee] transition duration-300 animate-fade-up delay-100 max-w-sm w-full">
+        <img src="https://www.bernas.id/wp-content/uploads/2022/03/01618375394Jenis-harga-dan-ukuran-batako.jpg" alt="Batako Standar" class="rounded-md mb-4 w-full h-40 object-cover">
+        <h3 class="text-xl font-semibold mb-2 text-cyan-200">Batako Standar</h3>
+        <p class="text-gray-300">Ideal untuk bangunan rumah dan toko. Harga mulai Rp3.000,- / biji.</p>
+      </div>
+
+      <!-- Kartu Lokasi -->
+      <div class="bg-[#1e293b] p-6 rounded-xl shadow-lg hover:shadow-[0_0_20px_#22d3ee] transition duration-300 animate-fade-up delay-200 max-w-sm w-full">
+        <img src="https://ik.imagekit.io/3fgrgeqi6z/Screenshot%202025-07-02%20141004.png?updatedAt=1751436657172" alt="Lokasi Maps" class="rounded-md mb-4 w-full h-40 object-cover">
+        <h3 class="text-xl font-semibold mb-2 text-cyan-200">Lokasi kalau mau datang ke tempat</h3>
+        <p class="text-gray-300 mb-4">Klik tombol di bawah untuk melihat lokasi di Google Maps.</p>
+
+        <a href="https://www.google.com/maps/place/Yayasan+Harapan+Bunda+Teweh+Baru/@-0.9737438,114.9033736,21z/data=!4m15!..." 
+           target="_blank"
+           class="inline-block bg-cyan-500 hover:bg-cyan-400 text-black font-semibold px-4 py-2 rounded-md shadow transition duration-300">
+          Lihat di Google Maps
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Kontak -->
+  <section class="py-16 px-6 md:px-20 bg-[#0f172a]">
+    <div class="max-w-4xl mx-auto text-center animate-fade-up">
+      <h2 class="text-3xl font-bold mb-6 text-cyan-300">Tertarik? Hubungi Kami!</h2>
+      <p class="text-lg mb-6 text-gray-300">Kami siap kirim ke lokasi Anda. Gratis konsultasi dan estimasi!</p>
+      <button onclick="hubungi()" class="bg-cyan-400 hover:bg-cyan-300 text-black font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-cyan-400 transition duration-300">WhatsApp Sekarang</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 text-center">
+    <p>&copy; 2025 Tribarata Beton.</p>
+  </footer>
+
+  <!-- Animasi -->
+  <script>
+    function hubungi() {
+      const noWA = "6282358746170";
+      const pesan = "Halo Tribarata Beton, saya tertarik dengan produk batako Anda.";
+      const url = `https://wa.me/${noWA}?text=${encodeURIComponent(pesan)}`;
+      window.open(url, "_blank");
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100', 'translate-y-0');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.animate-fade-up').forEach(el => {
+      el.classList.add('opacity-0', 'translate-y-10', 'transition-all', 'duration-700');
+      observer.observe(el);
+    });
+
+    document.querySelectorAll('.animate-fade-in').forEach(el => {
+      el.classList.add('opacity-0', 'transition-opacity', 'duration-1000');
+      setTimeout(() => el.classList.add('opacity-100'), 300);
+    });
+  </script>
+
+</body>
+</html>
